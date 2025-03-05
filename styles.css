@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(100, 77, 46);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+
+img{
+    max-width: 30vw;
+    border-radius: 60%;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: block;
+}
+
+.text>h1,p{
+    display: flex;
+    justify-content: center;
+}
